@@ -1,0 +1,23 @@
+{
+  "name": "randomapi",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "debug": "~2.6.9",
+    "dotenv": "^5.0.1",
+    "express": "~4.16.0",
+    "express-rate-limit": "^2.11.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "simple-youtube-api": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
